@@ -1,0 +1,642 @@
+<div class="tprt-navigation-root">
+  <link
+    rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    data-tag="font"
+  />
+  <link
+    rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=STIX+Two+Text:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap"
+    data-tag="font"
+  />
+  <link
+    rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    data-tag="font"
+  />
+  <link
+    rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    data-tag="font"
+  />
+  <link
+    rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap"
+    data-tag="font"
+  />
+  <style>
+    .tprt-navigation-root {  line-height: 1.15;}.tprt-navigation-root {  margin: 0;}.tprt-navigation-root * {  box-sizing: border-box;  border-width: 0;  border-style: solid;  -webkit-font-smoothing: antialiased;}.tprt-navigation-root p, .tprt-navigation-root li, .tprt-navigation-root ul, .tprt-navigation-root pre, .tprt-navigation-root div, .tprt-navigation-root h1, .tprt-navigation-root h2, .tprt-navigation-root h3, .tprt-navigation-root h4, .tprt-navigation-root h5, .tprt-navigation-root h6, .tprt-navigation-root figure, .tprt-navigation-root blockquote, .tprt-navigation-root figcaption {  margin: 0;  padding: 0;}.tprt-navigation-root button {  background-color: transparent;}.tprt-navigation-root button, .tprt-navigation-root input, .tprt-navigation-root optgroup, .tprt-navigation-root select, .tprt-navigation-root textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}.tprt-navigation-root button, .tprt-navigation-root select {  text-transform: none;}.tprt-navigation-root button, .tprt-navigation-root [type="button"], .tprt-navigation-root [type="reset"], .tprt-navigation-root [type="submit"] {  -webkit-appearance: button;  color: inherit;}.tprt-navigation-root button::-moz-focus-inner, .tprt-navigation-root [type="button"]::-moz-focus-inner, .tprt-navigation-root [type="reset"]::-moz-focus-inner, .tprt-navigation-root [type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}.tprt-navigation-root button:-moz-focus, .tprt-navigation-root [type="button"]:-moz-focus, .tprt-navigation-root [type="reset"]:-moz-focus, .tprt-navigation-root [type="submit"]:-moz-focus {  outline: 1px dotted ButtonText;}.tprt-navigation-root a {  color: inherit;  text-decoration: inherit;}.tprt-navigation-root pre {  white-space: normal;}.tprt-navigation-root input {  padding: 2px 4px;}.tprt-navigation-root img {  display: block;}.tprt-navigation-root details {  display: block;  margin: 0;  padding: 0;}.tprt-navigation-root summary::-webkit-details-marker {  display: none;}.tprt-navigation-root [data-thq="accordion"] [data-thq="accordion-content"] {  max-height: 0;  overflow: hidden;  transition: max-height 0.3s ease-in-out;  padding: 0;}.tprt-navigation-root [data-thq="accordion"] details[data-thq="accordion-trigger"][open] + [data-thq="accordion-content"] {  max-height: 1000vh;}.tprt-navigation-root details[data-thq="accordion-trigger"][open] summary [data-thq="accordion-icon"] {  transform: rotate(180deg);}.tprt-navigation-root { scroll-behavior: smooth  }
+
+
+      .tprt-navigation-root {
+        font-family: "Work Sans";
+        font-size: 1rem;
+      }
+
+      .tprt-navigation-root {
+        font-weight: 400;
+        font-style:normal;
+        text-decoration: undefined;
+        text-transform: undefined;
+        letter-spacing: 0.03em;
+        line-height: 1.65;
+        color: var(--color-on-surface);
+        background: var(--color-surface);
+
+        fill: var(--color-on-surface);
+      }
+
+
+
+
+
+    .tprt-navigation-root {
+      --spacing-lg: 1.5rem;
+      --spacing-md: 1rem;
+      --spacing-sm: 0.75rem;
+      --spacing-xl: 2rem;
+      --spacing-xs: 0.5rem;
+      --color-scrim: color-mix(in oklab, #ffffff 70%, transparent);
+      --spacing-2xl: 3rem;
+      --spacing-3xl: 4rem;
+      --spacing-4xl: 6rem;
+      --color-accent: #8fa8bf;
+      --color-border: #252525;
+      --font-size-lg: clamp(1.125rem, 0.9rem + 1.2vw, 1.25rem);
+      --font-size-sm: clamp(0.875rem, 0.8rem + 0.5vw, 0.95rem);
+      --font-size-xl: clamp(1.375rem, 1rem + 1.6vw, 1.5rem);
+      --font-size-xs: clamp(0.75rem, 0.6rem + 0.4vw, 0.875rem);
+      --color-neutral: #252525;
+      --color-outline: #252525;
+      --color-overlay: color-mix(in oklab, #ffffff 40%, transparent);
+      --color-primary: #7da0c4;
+      --color-surface: #151515;
+      --divider-value: 1px solid var(--color-border);
+      --font-size-2xl: clamp(1.625rem, 1.1rem + 2.2vw, 1.75rem);
+      --font-size-3xl: clamp(2.2rem, 1.25rem + 3.5vw, 2.6rem);
+      --font-size-4xl: clamp(3rem, 1.5rem + 5.5vw, 4rem);
+      --font-size-base: clamp(0.95rem, 1vw + 0.2rem, 1rem);
+      --shadow-level-1: none;
+      --shadow-level-2: none;
+      --shadow-level-3: none;
+      --color-backplate: color-mix(in oklab, #ffffff 60%, transparent);
+      --color-on-accent: #0f0f0f;
+      --color-secondary: #a08e78;
+      --border-radius-lg: 6px;
+      --border-radius-md: 4px;
+      --border-radius-sm: 2px;
+      --border-radius-xl: 10px;
+      --color-on-primary: #0f0f0f;
+      --color-on-surface: #f8f8f8;
+      --font-family-body: "Work Sans", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+      --font-weight-body: 400;
+      --line-height-body: 1.65;
+      --content-max-width: 62rem;
+      --border-radius-card: var(--border-radius-md);
+      --border-radius-full: 9999px;
+      --border-radius-none: 0px;
+      --color-on-secondary: #0f0f0f;
+      --font-style-heading: normal;
+      --font-weight-medium: 500;
+      --font-family-heading: "Manrope", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+      --font-weight-heading: 600;
+      --letter-spacing-body: 0.03em;
+      --line-height-heading: 1.25;
+      --dl-layout-size-large: 144px;
+      --dl-layout-size-small: 48px;
+      --dl-layout-space-unit: 16px;
+      --border-radius-control: var(--border-radius-sm);
+      --dl-layout-size-medium: 96px;
+      --dl-layout-size-xlarge: 192px;
+      --dl-layout-size-xsmall: 16px;
+      --font-style-subheading: normal;
+      --color-surface-elevated: color-mix(in oklab, var(--color-surface) 92%, var(--color-secondary));
+      --dl-color-theme-accent1: #FFFFFF;
+      --dl-color-theme-accent2: #F5D1B0;
+      --dl-layout-radius-round: 50%;
+      --dl-layout-size-xxlarge: 288px;
+      --letter-spacing-heading: 0.02em;
+      --text-transform-heading: none;
+      --dl-color-theme-primary1: #BF4408;
+      --dl-color-theme-primary2: #E65103;
+      --dl-layout-size-maxwidth: 1400px;
+      --dl-layout-radius-radius2: 2px;
+      --dl-layout-radius-radius4: 4px;
+      --dl-layout-radius-radius8: 8px;
+      --dl-layout-space-halfunit: 8px;
+      --dl-layout-space-sixunits: 96px;
+      --dl-layout-space-twounits: 32px;
+      --dl-color-theme-secondary1: #FFFFFF;
+      --dl-color-theme-secondary2: #FBF1EB;
+      --dl-layout-space-fiveunits: 80px;
+      --dl-layout-space-fourunits: 64px;
+      --color-on-surface-secondary: #cbcbcb;
+      --dl-layout-space-threeunits: 48px;
+      --dl-color-theme-neutral-dark: #191818;
+      --dl-layout-radius-cardradius: 8px;
+      --dl-color-theme-neutral-light: #FBFAF9;
+      --dl-layout-radius-imageradius: 8px;
+      --dl-layout-radius-inputradius: 24px;
+      --dl-layout-radius-buttonradius: 24px;
+      --dl-layout-space-oneandhalfunits: 24px;
+    }
+
+    .tprt-navigation-root .btn {
+      gap: var(--spacing-xs);
+      border: 1px solid transparent;
+      cursor: pointer;
+      display: inline-flex;
+      padding: var(--spacing-md) var(--spacing-lg);
+      font-size: var(--font-size-base);
+      box-shadow: var(--shadow-level-1);
+      text-align: center;
+      transition: all 0.2s ease-in-out;
+      align-items: center;
+      font-family: var(--font-family-body);
+      font-weight: var(--font-weight-medium);
+      line-height: var(--line-height-body);
+      user-select: none;
+      white-space: nowrap;
+      border-radius: var(--border-radius-control);
+      justify-content: center;
+      text-decoration: none;
+    }
+
+    .tprt-navigation-root .btn-primary {
+      color: var(--color-on-primary);
+      border-color: var(--color-primary);
+      background-color: var(--color-primary);
+    }
+
+    .tprt-navigation-root .btn-sm {
+      padding: var(--spacing-sm) var(--spacing-md);
+    }
+
+    .tprt-navigation-root .section-title {
+      font-size: var(--font-size-3xl);
+      font-style: var(--font-style-heading);
+      font-family: var(--font-family-heading);
+      font-weight: var(--font-weight-heading);
+      line-height: var(--line-height-heading);
+      letter-spacing: var(--letter-spacing-heading);
+      text-transform: var(--text-transform-heading);
+    }
+
+    .tprt-navigation-root .section-content {
+      font-size: var(--font-size-base);
+      font-family: var(--font-family-body);
+      font-weight: var(--font-weight-body);
+      line-height: var(--line-height-body);
+      letter-spacing: var(--letter-spacing-body);
+    }
+
+    .tprt-navigation-root .btn:focus-visible {
+      outline: 2px solid var(--color-outline);
+      outline-offset: 2px;
+    }
+
+    .tprt-navigation-root .btn:disabled {
+      cursor: not-allowed;
+      opacity: 0.6;
+      pointer-events: none;
+    }
+
+    .tprt-navigation-root .btn-primary:hover:not(:disabled) {
+      border-color: color-mix(in oklab, var(--color-primary) 90%, var(--color-surface));
+      background-color: color-mix(in oklab, var(--color-primary) 90%, var(--color-surface));
+    }
+
+    .tprt-navigation-root .navigation-wrapper {
+      top: 0;
+      width: 100%;
+      z-index: 1000;
+      position: sticky;
+      border-bottom: var(--divider-value);
+      background-color: var(--color-surface);
+    }
+
+    .tprt-navigation-root .navigation-container {
+      margin: 0 auto;
+      display: flex;
+      padding: var(--spacing-md) var(--spacing-xl);
+      max-width: var(--content-max-width);
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .tprt-navigation-root .navigation-logo {
+      color: var(--color-on-surface);
+      display: flex;
+      transition: opacity 0.2s ease;
+      align-items: center;
+      text-decoration: none;
+    }
+
+    .tprt-navigation-root .navigation-desktop-links {
+      gap: var(--spacing-xl);
+      display: flex;
+      align-items: center;
+    }
+
+    .tprt-navigation-root .navigation-mobile-toggle {
+      color: var(--color-on-surface);
+      border: none;
+      cursor: pointer;
+      display: none;
+      padding: var(--spacing-xs);
+      background: none;
+      transition: transform 0.2s ease;
+    }
+
+    .tprt-navigation-root .navigation-link {
+      color: var(--color-on-surface-secondary);
+      font-size: var(--font-size-base);
+      transition: color 0.2s ease;
+      font-family: var(--font-family-body);
+      font-weight: var(--font-weight-medium);
+      white-space: nowrap;
+      text-decoration: none;
+    }
+
+    .tprt-navigation-root .navigation-mobile-overlay {
+      inset: 0;
+      display: none;
+      z-index: 1100;
+      position: fixed;
+      min-height: 100vh;
+      overflow-y: auto;
+      flex-direction: column;
+      background-color: var(--color-surface);
+    }
+
+    .tprt-navigation-root .navigation-overlay-header {
+      top: 0;
+      display: flex;
+      padding: var(--spacing-md) var(--spacing-xl);
+      z-index: 1110;
+      position: sticky;
+      align-items: center;
+      border-bottom: var(--divider-value);
+      justify-content: space-between;
+      background-color: var(--color-surface);
+    }
+
+    .tprt-navigation-root .navigation-overlay-content {
+      flex: 1;
+      display: flex;
+      padding: var(--spacing-2xl) var(--spacing-xl);
+      flex-direction: column;
+    }
+
+    .tprt-navigation-root .navigation-mobile-close {
+      color: var(--color-on-surface);
+      border: none;
+      cursor: pointer;
+      padding: var(--spacing-xs);
+      background: none;
+    }
+
+    .tprt-navigation-root .navigation-overlay-links {
+      gap: var(--spacing-md);
+      display: flex;
+      flex-direction: column;
+    }
+
+    .tprt-navigation-root .navigation-overlay-footer {
+      opacity: 0.6;
+      margin-top: auto;
+      text-align: center;
+      padding-top: var(--spacing-4xl);
+      padding-bottom: var(--spacing-xl);
+    }
+
+    .tprt-navigation-root .navigation-overlay-item {
+      color: var(--color-on-surface);
+      display: flex;
+      padding: var(--spacing-lg) 0;
+      transition: padding-left 0.3s ease;
+      align-items: center;
+      border-bottom: var(--divider-value);
+      justify-content: space-between;
+      text-decoration: none;
+    }
+
+    .tprt-navigation-root .navigation-logo:hover {
+      opacity: 0.8;
+    }
+
+    .tprt-navigation-root .navigation-logo  .section-title {
+      margin: 0;
+      font-size: var(--font-size-xl);
+    }
+
+    .tprt-navigation-root .navigation-link:hover {
+      color: var(--color-primary);
+    }
+
+    .tprt-navigation-root .navigation-mobile-toggle:active {
+      transform: scale(0.9);
+    }
+
+    .tprt-navigation-root .navigation-overlay-item  span {
+      font-size: var(--font-size-2xl);
+      font-family: var(--font-family-heading);
+      font-weight: var(--font-weight-heading);
+    }
+
+    .tprt-navigation-root .navigation-overlay-item  svg {
+      color: var(--color-primary);
+      opacity: 0;
+      transform: translateX(-10px);
+      transition: all 0.3s ease;
+    }
+
+    .tprt-navigation-root .navigation-overlay-item:hover {
+      padding-left: var(--spacing-sm);
+    }
+
+    .tprt-navigation-root .navigation-overlay-item:hover svg {
+      opacity: 1;
+      transform: translateX(0);
+    }
+
+    @media(max-width: 767px) {
+      .tprt-navigation-root .navigation-container {
+        padding: var(--spacing-md) var(--spacing-lg);
+      }
+      .tprt-navigation-root .navigation-desktop-links {
+        display: none;
+      }
+      .tprt-navigation-root .navigation-mobile-toggle {
+        display: block;
+      }
+    }
+
+    .tprt-navigation-root .navigation-container1 {
+      display: contents;
+    }
+
+    .tprt-navigation-root .navigation-container2 {
+      display: none;
+    }
+
+    .tprt-navigation-root .navigation-container3 {
+      display: contents;
+    }
+
+    .tprt-navigation-root .navigation-container4 {
+      display: none;
+    }
+
+    .tprt-navigation-root .navigation-container5 {
+      display: contents;
+    }
+  </style>
+  <div class="navigation-container1">
+    <nav class="navigation-wrapper">
+      <div class="navigation-container">
+        <a href="index.html">
+          <div class="navigation-logo">
+            <span class="section-title">Gradfolio</span>
+          </div>
+        </a>
+        <div class="navigation-desktop-links">
+          <a href="index.html">
+            <div class="navigation-link"><span>Work</span></div>
+          </a>
+          <a href="index.html">
+            <div class="navigation-link"><span>Writing</span></div>
+          </a>
+          <a href="index.html">
+            <div class="navigation-link"><span>Blog</span></div>
+          </a>
+          <a href="index.html">
+            <div class="navigation-link"><span>About</span></div>
+          </a>
+          <a href="index.html">
+            <div class="btn btn-primary btn-sm"><span>Contact</span></div>
+          </a>
+        </div>
+        <button
+          id="mobileToggle"
+          aria-label="Open Menu"
+          aria-expanded="false"
+          class="navigation-mobile-toggle"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+          >
+            <path
+              fill="none"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M4 8h16M4 16h16"
+            ></path>
+          </svg>
+        </button>
+      </div>
+    </nav>
+    <div id="mobileOverlay" class="navigation-mobile-overlay">
+      <div class="navigation-overlay-header">
+        <a href="index.html">
+          <div class="navigation-logo">
+            <span class="section-title">Gradfolio</span>
+          </div>
+        </a>
+        <button
+          id="closeOverlay"
+          aria-label="Close Menu"
+          class="navigation-mobile-close"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+          >
+            <path
+              fill="none"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M18 6L6 18M6 6l12 12"
+            ></path>
+          </svg>
+        </button>
+      </div>
+      <div class="navigation-overlay-content">
+        <div class="navigation-overlay-links">
+          <a href="index.html">
+            <div class="navigation-overlay-item">
+              <span>Work</span>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="m9 6l6 6l-6 6"
+                ></path>
+              </svg>
+            </div>
+          </a>
+          <a href="index.html">
+            <div class="navigation-overlay-item">
+              <span>Writing</span>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="m9 6l6 6l-6 6"
+                ></path>
+              </svg>
+            </div>
+          </a>
+          <a href="index.html">
+            <div class="navigation-overlay-item">
+              <span>Blog</span>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="m9 6l6 6l-6 6"
+                ></path>
+              </svg>
+            </div>
+          </a>
+          <a href="index.html">
+            <div class="navigation-overlay-item">
+              <span>About</span>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="m9 6l6 6l-6 6"
+                ></path>
+              </svg>
+            </div>
+          </a>
+          <a href="index.html">
+            <div class="navigation-overlay-item">
+              <span>Contact</span>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="m9 6l6 6l-6 6"
+                ></path>
+              </svg>
+            </div>
+          </a>
+        </div>
+        <div class="navigation-overlay-footer">
+          <p class="section-content">© 2026 Gradfolio</p>
+        </div>
+      </div>
+    </div>
+    <div class="navigation-container2">
+      <div class="navigation-container3">
+        <style>
+          @media (prefers-reduced-motion: reduce) {
+          .navigation-overlay-item, .navigation-overlay-item svg {
+            transition: none;
+          }
+          }
+        </style>
+      </div>
+    </div>
+    <div class="navigation-container4">
+      <div class="navigation-container5">
+        <script defer data-name="navigation-logic">
+          document.addEventListener('DOMContentLoaded', function() {
+            (function(){
+              const mobileToggle = document.getElementById("mobileToggle")
+              const closeOverlay = document.getElementById("closeOverlay")
+              const mobileOverlay = document.getElementById("mobileOverlay")
+              const overlayLinks = document.querySelectorAll(".navigation-overlay-item")
+
+              const openMenu = () => {
+                mobileOverlay.style.display = "flex"
+                mobileToggle.setAttribute("aria-expanded", "true")
+                document.body.style.overflow = "hidden"
+
+                overlayLinks.forEach((link, index) => {
+                  link.style.opacity = "0"
+                  link.style.transform = "translateY(20px)"
+                  setTimeout(() => {
+                    link.style.transition = "all 0.4s ease-out"
+                    link.style.opacity = "1"
+                    link.style.transform = "translateY(0)"
+                  }, 100 + index * 50)
+                })
+              }
+
+              const closeMenu = () => {
+                mobileOverlay.style.display = "none"
+                mobileToggle.setAttribute("aria-expanded", "false")
+                document.body.style.overflow = ""
+              }
+
+              mobileToggle.addEventListener("click", openMenu)
+              closeOverlay.addEventListener("click", closeMenu)
+
+              overlayLinks.forEach((link) => {
+                link.addEventListener("click", closeMenu)
+              })
+
+              window.addEventListener("resize", () => {
+                if (window.innerWidth > 767) {
+                  closeMenu()
+                }
+              })
+            })()
+          });
+        </script>
+      </div>
+    </div>
+  </div>
+</div>
