@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Portfolio</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <a href="#home">Home</a>
+  <a href="#works">Works</a>
+  <a href="#about">About</a>
+  <a href="#contact">Contact</a>
+</header>
+
+<section id="home">
+  <h1>My Portfolio</h1>
+</section>
+
+<section id="works">
+  <h2>Video</h2>
+  <div class="works-grid">
+    <div class="work-card">
+      <img src="public/video1.jpg">
+      <h3>Video Project</h3>
+      <div class="work-desc">
+        <p>Video description</p>
+      </div>
+    </div>
+  </div>
+
+  <h2>Writing</h2>
+  <div class="works-grid">
+    <div class="work-card">
+      <img src="public/writing1.jpg">
+      <h3>Writing Project</h3>
+      <div class="work-desc">
+        <p>Writing description</p>
+      </div>
+    </div>
+  </div>
+
+  <h2>Games</h2>
+  <div class="works-grid">
+    <div class="work-card">
+      <img src="public/game1.jpg">
+      <h3>Game Project</h3>
+      <div class="work-desc">
+        <p>Game description</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="about">
+  <h2>About</h2>
+  <p>About section</p>
+</section>
+
+<section id="contact">
+  <h2>Contact</h2>
+  <p>Contact info</p>
+</section>
+
+<script>
+document.querySelectorAll('.work-card').forEach(card=>{
+  card.addEventListener('click', ()=>{
+    card.classList.toggle('expanded');
+  });
+});
+</script>
+
+</body>
+</html>
